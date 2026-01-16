@@ -40,30 +40,45 @@ Obiettivo del design:
 
 ---
 
-## Stat Fondamentali (versione iniziale)
+## Stat Fondamentali della Comunità (v0.1 – minimale)
 
-Le stat iniziali sono poche e ad alto significato:
+La comunità è descritta inizialmente da **poche statistiche di base**, ad alto significato sistemico. Tutti gli altri aspetti (sussistenza, salute, sicurezza, crescita) sono **variabili derivate**, calcolate dal sistema.
 
-- **Popolazione** – dimensione della comunità
-- **Sussistenza** – capacità di nutrire il gruppo
-- **Salute** – resilienza fisica e mortalità
-- **Coesione** – cooperazione e stabilità interna
-- **Conoscenza** – saperi pratici e tecniche
+### Stat base
 
-Le stat non sono controllate direttamente, ma reagiscono alle decisioni del giocatore.
+- **Popolazione**  
+  Dimensione complessiva della comunità. Influenza capacità di adattamento, pressione sulle risorse e resilienza.
+
+- **Coesione**  
+  Livello di cooperazione, fiducia e stabilità interna. Una coesione bassa riduce l’efficacia collettiva e aumenta il rischio di crisi.
+
+- **Conoscenza**  
+  Insieme di saperi pratici e tecniche (uso del fuoco, strumenti, conoscenza del territorio). Determina la capacità della comunità di sfruttare l’ambiente.
+
+Queste stat **non vengono modificate direttamente**, ma evolvono in risposta alle scelte del giocatore e all’interazione con l’ambiente.
 
 ---
 
-## Bisogni come Pressioni Sistemiche
+## Ambiente come Sistema (scheda nascosta)
 
-I bisogni della comunità non sono obiettivi da completare, ma **pressioni che influenzano il sistema**.
+L’ambiente non è scelto né controllato direttamente dal giocatore. È definito dal sistema e rappresenta l’**intorno** in cui la comunità vive.
 
-In fase iniziale il gioco considera solo i bisogni fondamentali:
-- nutrimento
+L’ambiente possiede parametri propri, non visibili come statistiche numeriche, che interagiscono con la scheda della comunità.
+
+Esempi di fattori ambientali:
+- bioma (foresta, pianura, costa, clima freddo, ecc.)
+- disponibilità naturale di risorse
+- accesso all’acqua
+- clima e stagionalità
+- presenza di predatori o gruppi rivali
+
+L’interazione tra **stat della comunità** e **fattori ambientali** genera automaticamente:
+- sussistenza
+- salute
 - sicurezza
-- continuità del gruppo
+- crescita o declino demografico
 
-Bisogni più complessi (cultura, territorio, sedentarizzazione) emergeranno nelle fasi successive del gioco.
+Il giocatore osserva gli effetti, non i calcoli sottostanti.
 
 ---
 
